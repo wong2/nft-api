@@ -1,6 +1,6 @@
-import type { NextApiRequest, NextApiResponse } from "next";
-import * as cheerio from "cheerio";
 import axios from "axios";
+import * as cheerio from "cheerio";
+import type { NextApiRequest, NextApiResponse } from "next";
 
 async function fetchCryptoPunksStats() {
   const { data: html } = await axios.get("https://www.larvalabs.com/cryptopunks");
