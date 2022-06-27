@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@metamask/metamask-eth-abis": "^3.0.0",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
     "ethers": "^5.5.4",
     "next": "12.1.0",
     "react": "17.0.2",
